@@ -3,7 +3,6 @@
     <div v-for="todo in todos" :key="todo.id">
       <Todo :todo="todo" @delete-todo="deleteTodo" />
     </div>
-    <h6>next id: {{ nextId }}</h6>
   </div>
 </template>
 
